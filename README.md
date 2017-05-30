@@ -1,11 +1,16 @@
 # NoCaptcha Description
-core functions handles reCaptcha v2 bot interaction. 
-Library does the following:
-*) select checkbox 
-*) fetch reCaptcha image/instructions and send to captcha 
-cracking services for a response
-*) ticks response images and submit.
-*) handles errors.
+### Core functions handles reCaptcha v2 bot interaction. 
+### Library does the following:
+
+#### *) select checkbox 
+
+#### *) fetch reCaptcha image/instructions and send to captcha 
+
+#### cracking services for a response
+
+#### *) ticks response images and submit.
+
+#### *) handles errors.
 
 
 
