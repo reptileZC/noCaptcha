@@ -1,11 +1,15 @@
 # NoCaptcha Description
-### Core functions handles reCaptcha v2 bot interaction. 
+### Core functions handles reCaptcha v2 bot interaction, using ruCaptcha breaking captcha service.
 ### Library does the following:
 
  * Selects checkbox 
  * Fetch reCaptcha image/instructions and send to captcha cracking services for a response
  * Ticks response images and submit.
  * Handles errors.
+
+# Instructions
+1) Install Selenium 3.0.4
+2) Go to core/reCaptcha.py and edit line 61 - reCaptchaKey
 
 
 
