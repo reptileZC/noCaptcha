@@ -1,5 +1,6 @@
 
-![alt text](https://wix.logotypemaker.com/lKmzXmN6K_WgLMOlM69XWAzB_pg1B69M_1vKbQNlLrmO0AvzrXBQ90bp6rvp.png?v=3) # [NoCaptcha](http://www.nocaptcha.co)  ReCaptcha v2 handlers.
+![alt tag](https://wix.logotypemaker.com/lKmzXmN6K_WgLMOlM69XWAzB_pg1B69M_1vKbQNlLrmO0AvzrXBQ90bp6rvp.png?v=3) 
+# [NoCaptcha](http://www.nocaptcha.co)  ReCaptcha v2 handlers.
 
 ### Core functions handles reCaptcha v2 bot interaction, using ruCaptcha breaking captcha service.
 
