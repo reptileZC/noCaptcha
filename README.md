@@ -1,8 +1,5 @@
 # [NoCaptcha](http://www.nocaptcha.co)  ReCaptcha v2 handlers.
 
-
-Take me to [pookie](#pookie)
-
 ### Core functions handles reCaptcha v2 bot interaction, using ruCaptcha breaking captcha service.
 
 ### Library does the following:
