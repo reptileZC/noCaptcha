@@ -1,7 +1,8 @@
-# NoCaptcha Description
-### Core functions handles reCaptcha v2 bot interaction, using ruCaptcha breaking captcha service.
-### Library does the following:
+# ReCaptcha v2 handlers.
 
+### Core functions handles reCaptcha v2 bot interaction, using ruCaptcha breaking captcha service.
+
+### Library does the following:
  * Selects checkbox 
  * Fetch reCaptcha image/instructions and send to captcha cracking services for a response
  * Ticks response images and submit.
