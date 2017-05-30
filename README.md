@@ -1,4 +1,4 @@
-# [NoCaptcha](#pookie)  ReCaptcha v2 handlers.
+# [NoCaptcha](#http://www.nocaptcha.co)  ReCaptcha v2 handlers.
 
 
 Take me to [pookie](#pookie)
