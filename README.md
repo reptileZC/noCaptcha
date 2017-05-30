@@ -5,7 +5,7 @@ ReCaptcha bridge for multi-language support
 
 Instructions: 
 
-#How to run core
+# Running core
 ```python
 
 browser = webdriver.Firefox() # creating browser
