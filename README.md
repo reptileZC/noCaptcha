@@ -1,7 +1,7 @@
 
-<img src="https://wix.logotypemaker.com/lKmzXmN6K_WgLMOlM69XWAzB_pg1B69M_1vKbQNlLrmO0AvzrXBQ90bp6rvp.png?v=3" width="180" style="inline-block"> 
+`<img src="https://wix.logotypemaker.com/lKmzXmN6K_WgLMOlM69XWAzB_pg1B69M_1vKbQNlLrmO0AvzrXBQ90bp6rvp.png?v=3" width="180" style="inline-block"> 
 
-<h1> [NoCaptcha](http://www.nocaptcha.co)  ReCaptcha v2 handlers. </h1>
+# [NoCaptcha](http://www.nocaptcha.co)  ReCaptcha v2 handlers. `
 
 
 ### Core functions handles reCaptcha v2 bot interaction, using ruCaptcha breaking captcha service.
