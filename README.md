@@ -1,5 +1,6 @@
 
-<img src="https://static.wixstatic.com/media/142a1c_e2711fc04bf84886917e12aa57ff178e~mv2.png/v1/fill/w_49,h_75,al_c,usm_0.66_1.00_0.01/142a1c_e2711fc04bf84886917e12aa57ff178e~mv2.png" width="50" >  | # [NoCaptcha](http://www.nocaptcha.co) ReCaptcha v2 handlers. 
+<img src="https://static.wixstatic.com/media/142a1c_e2711fc04bf84886917e12aa57ff178e~mv2.png/v1/fill/w_49,h_75,al_c,usm_0.66_1.00_0.01/142a1c_e2711fc04bf84886917e12aa57ff178e~mv2.png" width="50" >  
+| # [NoCaptcha](http://www.nocaptcha.co) ReCaptcha v2 handlers. 
 
 
 ### Core functions handles reCaptcha v2 bot interaction, using ruCaptcha breaking captcha service.
