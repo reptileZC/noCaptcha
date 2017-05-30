@@ -2,10 +2,10 @@
 ### Core functions handles reCaptcha v2 bot interaction. 
 ### Library does the following:
 
-###### *) Selects checkbox 
-###### *) Fetch reCaptcha image/instructions and send to captcha cracking services for a response
-###### *) Ticks response images and submit.
-###### *) Handles errors.
+ * Selects checkbox 
+ * Fetch reCaptcha image/instructions and send to captcha cracking services for a response
+ * Ticks response images and submit.
+ * Handles errors.
 
 
 
