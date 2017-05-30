@@ -9,8 +9,6 @@
 
 
 
-Instructions: 
-
 # Running core
 ```python
 
