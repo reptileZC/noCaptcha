@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Author: Gabriel Munits
-Desctiption:
-Version:
+Desctiption: Handling reCaptcha v2 box
+Version:1.4
 """
 
 '''
@@ -12,20 +12,6 @@ Instructions:
 3) create captcha object "cap = Captcha(self.__browser)"
 4) fill captcha checkbox "cap.selectCheckbox()"
 5) solve captcha "capIsSolved = cap.Solve()"
-
-
-All code:
-
-browser = webdriver.Firefox()
-browser.get("https://www.google.com/recaptcha/api2/demo")
-mainWin = browser.current_window_handle
-browser.switch_to.window(mainWin)
-
-captcha = Captcha(browser)
-if captcha.Solve():
-    print "captcha solved"
-else:
-    print "captcha failed to solve"
 
 
 
@@ -43,6 +29,7 @@ import urllib
 import itertools
 import random
 import subprocess
+
 # Selenium
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -77,6 +64,7 @@ ID = random.randint(0,1000000)
 captchaImageName = 'captcha' + str(ID) + '.jpg'
 
 
+# random sleep
 def wait_between(a, b):
     time.sleep(uniform(a, b))
     pass
@@ -90,7 +78,7 @@ class Captcha(object):
         pass
 
     def selectCheckbox(self): # checking checkbox
-        wait_between(5, 6)
+        wait_between(5, 6) # wait for page load
         try:
             # go to captcha
             self.__browser.switch_to_frame(self.__browser.find_elements_by_tag_name("iframe")[0])
