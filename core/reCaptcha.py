@@ -58,7 +58,7 @@ global waitForAnswer
 global captchaImage
 
 
-ruCaptchaKey = '419f10cf03eecd326a2c702fe2d50d4a'
+ruCaptchaKey = '419f10cf03eecd326a2c702fe2d50d4a' #Edit
 waitForAnswer = 30
 ID = random.randint(0,1000000)
 captchaImageName = 'captcha' + str(ID) + '.jpg'
