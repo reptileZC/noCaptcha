@@ -6,15 +6,17 @@ ReCaptcha bridge for multi-language support
 Instructions: 
 
 #How to run core
+```python
 
-browser = webdriver.Firefox()
-browser.get("https://www.google.com/recaptcha/api2/demo")
-mainWin = browser.current_window_handle
-browser.switch_to.window(mainWin)
+browser = webdriver.Firefox() # creating browser
+browser.get("https://www.google.com/recaptcha/api2/demo") # open target page
+mainWin = browser.current_window_handle 
+browser.switch_to.window(mainWin) # switch to main frame
 
-captcha = Captcha(browser)
+captcha = Captcha(browser) # create Captcha object
 if captcha.Solve():
     print "captcha solved"
 else:
     print "captcha failed to solve"
 
+```
