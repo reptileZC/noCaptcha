@@ -9,7 +9,7 @@
  * Handles errors.
 
 # Instructions
-1) Install Selenium 3.0.4
+1) Install Selenium 3.0.1
 2) Go to core/reCaptcha.py and edit line 61 - reCaptchaKey
 
 
