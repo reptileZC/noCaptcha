@@ -1,6 +1,5 @@
-# [https://www.nocaptcha.co](#NoCaptcha)  ReCaptcha v2 handlers.
+# [NoCaptcha](#https://www.nocaptcha.co/)  ReCaptcha v2 handlers.
 
-[Link-name2](#Header2)
 
 
 
