@@ -1,8 +1,7 @@
 import os
 import sys
-import reCaptcha
 import subprocess
-from reCaptcha import *
+from reCaptcha import * # import all core
 try:
     from selenium import webdriver
     from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
@@ -25,7 +24,7 @@ def killAll():
         print('Firefox cleanup - SUCCESS!')
     pass
 
-def brows_conf():
+def brows_conf(browser = None):
     try:
         os.environ[
             "PATH"] += ":/usr/local/lib/python2.7/site-packages/selenium-3.0.1-py2.7.egg/selenium/webdriver/firefox"
@@ -55,17 +54,3 @@ def brows_conf():
     
     pass
     
-
-if __name__ == '__main__':
-    
-
-    captcha = Captcha(browser)
-    captcha.selectCheckbox()
-
-    if captcha.Solve():
-        print "captcha solved"
-    else:
-        print "captcha failed to solve"
-
-
-    killAll()
